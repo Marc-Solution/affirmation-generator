@@ -1,0 +1,50 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+/* Button Styles */
+button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+button:focus {
+    outline: none;
+}
+
+/* Affirmation Text */
+#affirmationText {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+    min-height: 50px;
+    /* To avoid shifting layout when text appears */
+}
+
+/* Category Button Styles */
+button.m-2 {
+    width: 200px;
+}
